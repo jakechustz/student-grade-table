@@ -1,6 +1,8 @@
+
 .page-container {
   margin-top: 2rem;
 }
+
 
 .table-container {
   margin-top: 2rem;
@@ -8,6 +10,6 @@
   margin-left: 2rem;
 }
 
-#table-header {
+header.container{
   margin-left: 2rem;
 }
