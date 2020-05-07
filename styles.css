@@ -13,3 +13,16 @@
 header.container{
   margin-left: 2rem;
 }
+
+#cancel-button {
+  margin-left: 1rem;
+}
+
+#form-container {
+  margin-right: 1rem;
+}
+
+
+#average-container {
+  margin-right: 1.5rem;
+}
