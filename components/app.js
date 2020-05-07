@@ -34,4 +34,13 @@ class App{
   start() {
     this.getGrades();
   }
+  createGrade(name, course, grade) {
+    console.log(name, course, grade);
+  }
+  handlecreateGradeError(err) {
+    console.error(err);
+  }
+  handlecreateGradeSuccess() {
+    this.getGrades();
+  }
   }
