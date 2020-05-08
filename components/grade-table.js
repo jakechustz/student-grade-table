@@ -9,6 +9,11 @@ class GradeTable{
     for (var ii = 0; ii < grades.length; ii++) {
       tbody.append(this.renderGradeRow(grades[ii], this.deleteGrade));
   }
+  if(grades.length === 0) {
+    p.classList.remove('d-none');
+  } else {
+    p.className = 'd-none';
+  }
 }
   onDeleteClick(deleteGrade) {
     this.deleteGrade = deleteGrade;
