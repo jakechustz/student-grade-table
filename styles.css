@@ -22,7 +22,12 @@ header.container{
   margin-right: 1rem;
 }
 
-
 #average-container {
   margin-right: 1.5rem;
+}
+
+@media (max-width: 550px) {
+  .table-container {
+    margin-right: 1rem;
+  }
 }
