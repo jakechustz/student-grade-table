@@ -4,6 +4,6 @@ class PageHeader {
   }
   updateAverage(newAverage) {
     console.log("The average grade is: ", newAverage);
-    this.headerElement.querySelector("#average-badge").textContent = newAverage;
+    this.headerElement.querySelector("#average-badge").textContent = newAverage + "%";
   }
 }
